@@ -1,6 +1,6 @@
 # kEnAi NPM Starter Kit
 
-![kEnAi NPM Starter Kit]('./src/img/kenai-npm-starter-kit.png')
+![kEnAi NPM Starter Kit](src/img/kenai-npm-starter-kit.png)
 
 * [Inicio](#kenai-npm-starter-kit)
 * [Para comenzar](#para-comenzar)
@@ -111,11 +111,11 @@ Cada Componente tiene su respectiva documentacíon al inicio de sus archivos pug
 
 Para que sepas que tipo de código tiene un componente encontrarás al lado del nombre de cada componente los siguientes logos:
 
-* Si tiene código pug ![Pug](http://bextlan.com/img/para-libs/indicator-pug.png)
-* Si tiene código sass ![Sass](http://bextlan.com/img/para-libs/indicator-sass.png)
-* Si tiene código js ![JS](http://bextlan.com/img/para-libs/indicator-js.png)
+* Si tiene código pug ![Pug](src/img/indicator-pug.png)
+* Si tiene código sass ![Sass](src/img/indicator-sass.png)
+* Si tiene código js ![JS](src/img/indicator-js.png)
 
-### Basic Reset ![Sass](http://bextlan.com/img/para-libs/indicator-sass.png)
+### Basic Reset ![Sass](src/img/indicator-sass.png)
 
 Componente para aplicar un reseteo de estilos básicos al documento, aplica las siguientes reglas:
 
@@ -128,7 +128,7 @@ Componente para aplicar un reseteo de estilos básicos al documento, aplica las 
 
 **Archivos:** [**`_basic_reset.scss`**](./src/scss/components/_basic_reset.scss)
 
-### Youtube Video ![Pug](http://bextlan.com/img/para-libs/indicator-pug.png) ![Sass](http://bextlan.com/img/para-libs/indicator-sass.png) ![JS](http://bextlan.com/img/para-libs/indicator-js.png)
+### Youtube Video ![Pug](src/img/indicator-pug.png) ![Sass](src/img/indicator-sass.png) ![JS](src/img/indicator-js.png)
 
 Componente para incrustar un video de YouTube en nuestro sitio web cuando la resolución es mayor a 64em (1024px), cuando es menor se agrega un enlace al video
 
@@ -136,7 +136,7 @@ Componente para incrustar un video de YouTube en nuestro sitio web cuando la res
 
 **Archivos:** [**`youtube_video.pug`**](./src/pug/includes/components/youtube_video.pug), [**`_youtube_video.scss`**](./src/scss/components/_youtube_video.scss), [**`youtube_video.js`**](./src/js/components/youtube_video.js)
 
-### Picture ![Pug](http://bextlan.com/img/para-libs/indicator-pug.png)
+### Picture ![Pug](src/img/indicator-pug.png)
 
 Componente para generar una imagen responsive con la etiqueta Picture
 
@@ -144,7 +144,7 @@ Componente para generar una imagen responsive con la etiqueta Picture
 
 **Archivos:** [**`picture.pug`**](./src/pug/includes/components/picture.pug)
 
-### Picture Webp ![Pug](http://bextlan.com/img/para-libs/indicator-pug.png)
+### Picture Webp ![Pug](src/img/indicator-pug.png)
 
 Componente para generar una imagen responsive con soporte al formato Webp, aplica sólo para imágenes .jpg
 
