@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "Kit de inicio para desarrollo frontend basado en componentes (Pug, Sass y JS)  y automatizado con Scripts NPM",
   "main": "package.json",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/jonmircha/kenai-npm-starter-kit.git"
-  },
   "scripts": {
     "sass": "node-sass -w --importer node_modules/node-sass-package-importer/dist/cli.js -o ./public/ ./src/scss/",
     "pug": "pug -w -P -p ./src/pug/includes/ ./src/pug/pages/ -o ./public/",
@@ -36,8 +32,25 @@
     "build": "npm run assets && npm run min && npm run serve",
     "start": "npm run devserve"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonmircha/kenai-npm-starter-kit.git"
+  },
+  "keywords": [
+    "jonmircha",
+    "kenai devtools",
+    "devtools",
+    "starter kit",
+    "npm",
+    "npm scripts",
+    "web components"
+  ],
   "author": "Jonathan MirCha <jonmircha@gmail.com>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonmircha/kenai-npm-starter-kit/issues"
+  },
+  "homepage": "https://github.com/jonmircha/kenai-npm-starter-kit#readme",
   "devDependencies": {
     "autoprefixer": "^7.0.0",
     "babel-cli": "^6.24.0",
