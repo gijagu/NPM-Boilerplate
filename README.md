@@ -1,4 +1,8 @@
-# kEnAi NPM Starter Kit
+# NPM BOILERPLATE 
+
+Requiere 
+* node v6.11.5
+* npm v3.10.10
 
 ![kEnAi NPM Starter Kit](src/img/kenai-npm-starter-kit.png)
 
